@@ -1,0 +1,76 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.parent {
+    margin: 0%;
+    height: 70vh;
+    width: 50vw;
+    background-color: gold;
+    position: relative;
+}
+
+.parentdiv {
+    height: 30vh;
+    width: 10vw;
+    background-color: darkblue;
+    position: fixed;
+    z-index: 15;
+}
+
+.child1 {
+    height: 10vh;
+    width: 20vw;
+    top: 40%;
+    left: 20%;
+    background-color: cornflowerblue;
+    position: relative;   
+    z-index: 18;
+}
+
+.child2 {
+    height: 40vh;
+    width: 10vw;
+    top: 15%;
+    left: 30%;
+    background-color: cornflowerblue;
+    position: relative;   
+    z-index: 17;
+}
+
+
+.parent2 {
+    margin: 0%;
+    height: 80vh;
+    width: 50vw;
+    background-color: #800080;
+    position: relative;
+}
+
+.parent2 div {
+    height: 30vh;
+    width: 10vw;
+    left: 30%;
+    background-color: green;
+    position: fixed;
+    z-index: 15;
+}
+
+.parent3 {
+    margin: 0%;
+    height: 100vh;
+    width: 50vw;
+    background-color: blue;
+    position: relative;
+}
+
+.parent3 div {
+    height: 40vh;
+    width: 10vw;
+    top: 30%;
+    left: 40%;
+    background-color: orange;
+    position: fixed;
+    z-index: 30;
+}
